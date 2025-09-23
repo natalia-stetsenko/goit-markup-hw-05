@@ -689,7 +689,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 /*   ------ FORM------- */
@@ -722,6 +722,9 @@ img {
 
 .input-wrapper {
   position: relative;
+}
+
+.modal-field-comment {
   margin-bottom: 16px;
 }
 
@@ -788,6 +791,7 @@ a {
 }
 
 .modal-check-box {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
